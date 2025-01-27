@@ -1,0 +1,671 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+
+
+        h6 {
+            padding-left: 160px;
+        }
+
+        header {
+            border-style: solid;
+            border-color: purple;
+            height: 36px;
+            width: 100%;
+            background-color: purple;
+        }
+
+        h1 {
+            color: purple;
+            font-size: 35px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        aside {
+            flex: 2;
+        }
+
+        .all-div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 1px;
+            background-color: white;
+            padding-bottom: 15px;
+            padding-left: 150px;
+        }
+
+        .f-txt {
+            max-width: 50%;
+        }
+
+            .f-txt h1 {
+                color: #7b3fa1;
+                font-size: 36px;
+            }
+
+        .dn-btn {
+            background-color: #ffc107;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .c-img img {
+            width: 300px;
+            padding-right: 400px;
+            padding-top: 30px;
+        }
+
+        .vis-section {
+            background-color: purple;
+            color: white;
+            padding-top: 20px;
+            text-align: center;
+            height: 150px;
+        }
+
+            .vis-section h2 {
+                font-size: 28px;
+                padding-bottom: 5px;
+            }
+
+        .vis-card {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            color: #7b3fa1;
+            border-radius: 5px;
+            padding: 20px;
+            flex: 1;
+            max-width: 200px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .u-img {
+            padding-top: 150px;
+        }
+
+        .header {
+            box-shadow: 0 1px purple;
+        }
+
+        .diagram {
+            background-color: lightgrey;
+        }
+
+        .button {
+            padding-left: 800px;
+            padding-top: 30px;
+        }
+
+        .right {
+            background-color: purple;
+            border: none;
+            border-radius: 2px;
+            height: 20px;
+            width: 20px;
+        }
+
+        .left {
+            background-color: purple;
+            border: none;
+            border-radius: 2px;
+            height: 20px;
+            width: 20px;
+        }
+
+        .ov {
+            display: flex;
+            padding-left: 250px;
+        }
+
+            .ov h2 {
+                margin-top: 5px;
+            }
+
+        .sub-div {
+            display: flex;
+            gap: 5px;
+        }
+
+        .um {
+            padding-left: 160px;
+            margin-bottom: 1px;
+        }
+
+        .sub-div h3 {
+            color: lightgrey;
+        }
+
+        .readmore {
+            background-color: #ffc107;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-left: 40px;
+            width: 150px;
+        }
+
+        .topdiv {
+            display: flex;
+        }
+
+        .main-div2 h2 {
+            color: purple;
+            font-size: 25px;
+            padding-left: 40px;
+        }
+
+        .main-div2 h4 {
+            padding-left: 40px;
+        }
+
+        .main-div2 h5 {
+            padding-left: 40px;
+            font-size: 16px;
+        }
+
+        .b-img {
+            display: flex;
+        }
+
+        .handimg {
+            padding-left: 60%;
+            margin-top: 5px;
+        }
+
+        .u-img {
+            box-shadow: 0 2px 5px white;
+            padding-left: 150px;
+        }
+
+        .block {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            background-color: lightgray;
+            height: 350px;
+        }
+
+        .flex {
+            display: flex;
+            padding-right: 30px;
+        }
+
+        .block1 {
+            flex: 1;
+            background-color: #ffffff;
+            color: #7b3fa1;
+            border-radius: 5px;
+            height: 300px;
+            max-width: 400px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            gap: 100px;
+        }
+
+        .txt {
+            color: purple;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .lastone {
+            display: flex;
+            gap: 15px;
+        }
+
+        .line {
+            padding-top: 100px;
+            margin-top: 10px;
+        }
+
+        nav ol {
+            list-style-type: none;
+            display: flex;
+            gap: 40px;
+            padding-right: 10px;
+        }
+
+        .dollar {
+            flex: 1;
+            display: flex;
+            padding-left: 150px;
+        }
+
+        .lastsec {
+            background-color: purple;
+        }
+
+        .white {
+            flex: 1;
+            display: flex;
+            gap: 100px;
+            background-color: white;
+            margin-left: 75px;
+            margin-right: 75px;
+        }
+
+        .contactus {
+            background-color: #ffc107;
+            color: white;
+            border: none;
+            padding: 8px 18px;
+            font-size: 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .clr {
+            color: purple;
+            padding-right: 30px;
+            padding-left: 15px;
+            margin-top: 15px;
+            font-size: 20px;
+        }
+
+        .lastdiv {
+            flex: 1;
+            display: flex;
+            gap: 100px;
+            background-color: rgb(167,37,167);
+            margin-left: 75px;
+            margin-right: 75px;
+        }
+
+        .mbl {
+            padding-right: 30px;
+            padding-left: 80px;
+            margin-top: 20px;
+        }
+
+        .li {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .kini {
+            margin-top: 10px;
+        }
+
+        .ln {
+            margin-top: 10px;
+        }
+
+        .button {
+            padding-left: 1000px;
+            padding-right: 100px;
+        }
+
+        .footer {
+            margin-top: 50px;
+            color: white;
+        }
+
+        .last {
+            padding-left: 150px;
+        }
+
+        .para {
+            padding-left: 100px;
+            display: flex;
+        }
+
+        .cpy {
+            display: flex;
+            gap: 800px;
+            margin-left: 80px;
+            padding-top: 5px;
+            color: white;
+        }
+
+        .chip {
+            font-size: 12px;
+            margin-right: 30px;
+        }
+
+        .txt {
+            padding-right: 180px;
+        }
+
+        .posat {
+            margin-top: 75px;
+        }
+
+        span {
+            color: purple;
+            font-size: 25px;
+        }
+
+        .div1 {
+            display: flex;
+        }
+
+        .pic {
+            position: relative;
+        }
+
+        .pics {
+            position: absolute;
+            padding-left: 350px;
+            top: 930px;
+        }
+
+        .handimg {
+            position: relative;
+            bottom: 100px;
+            right: 90px;
+        }
+
+        .data {
+            display: flex;
+            margin-left: 150px;
+            gap: 50px;
+        }
+
+        .cn-btn {
+            background-color: #ffc107;
+            color: white;
+            border: none;
+            padding: 8px 18px;
+            font-size: 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .datas {
+            background-color: white;
+        }
+
+        .dat {
+            padding-left: 10px;
+            padding-top: 15px;
+        }
+
+        .on {
+            margin-left: 80px;
+            padding-top: 10px;
+        }
+
+        hr {
+            height: 1px;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h6>Helpline-805063677</h6>
+    </header>
+    <section class="datas">
+        <div class="data">
+
+            <div class="in"> <img src="C:\Users\Nikitha\Downloads\Group 46.png" /></div>
+            <div class="dat">Home</div>
+            <div class="dat">About Us</div>
+            <div class="dat">Health Support Program</div>
+            <div class="dat">Get Involved</div>
+            <div class="dat">Contact Us</div>
+            <div class="on"> <button class="cn-btn">Contact Us</button></div>
+
+        </div>
+        <hr />
+    </section>
+    <main>
+        <section class="all-div">
+            <div class="f-txt">
+                <h1>Sanjeevini Cancer Seva Trust</h1>
+                <h4>With You in Every Step of Cancer Care</h4>
+                <h5>Donate Now to Help People with Cancer</h5>
+                <button class="dn-btn">Donate Now</button>
+            </div>
+            <div class="c-img"> <img src="C:\Users\Nikitha\Downloads\Group 52.png" height="200" width="250" /> </div>
+        </section>
+        <section class="vis-section">
+            <div class=" ov">
+                <div>
+                    <img src="C:\Users\Nikitha\Downloads\Line 2.png" width="400" />
+                </div>
+                <div>
+                    <img src="C:\Users\Nikitha\Downloads\Group 62.png" />
+                </div>
+                <div>
+                    <h2>Our Vision</h2>
+                </div>
+
+                <div>
+                    <img src="C:\Users\Nikitha\Downloads\Group 62.png" />
+                </div>
+                <div>
+                    <img src="C:\Users\Nikitha\Downloads\Line 2.png" width="400" />
+                </div>
+            </div>
+
+
+            <div class="vis-card">
+                <div class="card">
+                    <img src="C:\Users\Nikitha\Downloads\Frame.png" />
+                    <p>Support people with Cancer</p>
+
+                </div>
+                <div class="card">
+                    <img src="C:\Users\Nikitha\Downloads\Frame (3).png" />
+                    <p>provide financial assistance in cancer diagnostic &  treatment</p>
+
+                </div>
+                <div class="card">
+                    <img src="C:\Users\Nikitha\Downloads\Frame (4).png" />
+                    <p>conduct educational workshops</p>
+                </div>
+                <div class="card">
+                    <img src="C:\Users\Nikitha\Downloads\Frame (5).png" />
+                    <p>Increased Community  Outreach to create camcer awarness</p>
+                </div>
+            </div>
+
+        </section>
+        <section class="u-img">
+            <div class="topdiv">
+                <div class="special">
+                    <div class="photo">
+                        <div class="pic"> <img src="C:\Users\Nikitha\Downloads\image.png " /></div>
+
+                        <div class="pics"> <img src="C:\Users\Nikitha\Downloads\Group 53.png" /></div>
+                    </div>
+
+
+                    <div class="div1">
+                        <div>
+                            <img src="C:\Users\Nikitha\Downloads\Group 54.png" />
+                        </div>
+                        <div>
+                            <h3>
+                                SANJEEVINI
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-div2">
+                    <div>
+                        <h2>Our  Mission</h2>
+                        <h4><b>At sanjeevini cancer Seva Trust,we are devoted to providing compasionate<br />  care and essential suppport for cancer patients</b></h4>
+                        <h5>We strive to offer both practical assistence and emotional comfort,ensuring that those in<br /> need recieve the help and resource neccessary during the challenging time.</h5>
+                    </div>
+                    <div class="b-img">
+                        <div>
+                            <button class="readmore">Read More</button>
+                        </div>
+                        <div class="handimg">
+                            <img src="C:\Users\Nikitha\Downloads\image 4.png" height="200" width="200" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="diagram">
+            <div class="flex">
+
+                <div class="para">
+                    <img src="C:\Users\Nikitha\Downloads\Group 14.png" width="25px" />
+
+                    <p><span>Our</span> health support program</p>
+                </div>
+
+                <div class="button">
+                    <button class="right"><</button>
+                    <button class="left">></button>
+                </div>
+            </div>
+            <div class="block">
+                <div class="block1">
+                    <img src="C:\Users\Nikitha\Downloads\Group 59.png" />
+                    <h4><b>Aasare</b></h4>
+                    <h4>
+                        Donation of ₹1per day(₹365 rs per day)<br />entitled for the support of cancer care up to <br />₹3lacs per year for 1 person
+                    </h4>
+                    <button class="readmore">View details</button>
+
+                </div>
+                <div class="block1">
+                    <img src="C:\Users\Nikitha\Downloads\Group 59 (1).png" />
+
+                    <h4><b> Abhaya</b></h4>
+                    <h4>
+                        Donation ₹5 per day(₹1825 rs per day)<br />entitled for the support of cancer care up to<br />₹10 lacs per year for 1 person
+                    </h4>
+                    <button class="readmore">View details</button>
+
+                </div>
+                <div class="block1">
+                    <img src="C:\Users\Nikitha\Downloads\Group 59 (2).png" />
+
+                    <h4><b>Donate any amount</b></h4>
+                    <h4>
+                        support of people with cancer
+                    </h4>
+                    <div class="posat">
+                        <button class="readmore">Donate Now</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="last">
+            <div class="txt">
+                <h4>How we can Help</h4>
+            </div>
+            <div class="lastone">
+                <div>
+                    <img src="C:\Users\Nikitha\Downloads\Group 82.png" height="200" width="200" />
+                    <h4><b>Read Our Health Support Program</b> </h4>
+                    <p> review the detail ofour health <br />Support program aqnd service</p>
+                </div>
+                <div class="line"><img src="C:\Users\Nikitha\Downloads\Vector 1.png" /></div>
+
+                <div>
+
+                    <img src="C:\Users\Nikitha\Downloads\Group 83.png" height="200" width="200" />
+                    <h4><b>Contact Us</b></h4>
+                    <p>Reach out to discuss how we can assist you<br />or your loved ones</p>
+                </div>
+                <div class="line"><img src="C:\Users\Nikitha\Downloads\Vector 1.png" /></div>
+                <div>
+
+                    <img src="C:\Users\Nikitha\Downloads\Group 84.png" height="200" width="200" />
+                    <h4><b>Stay Informed</b></h4>
+                    <p>follow our  updates for the latest information<br /> on our programs and services</p>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="lastsec">
+            <footer class="footer">
+                <div class="dollar">
+                    <div class="ln">
+                        <img src="C:\Users\Nikitha\Downloads\Line 2.png" width="250" />
+                    </div>
+                    <div>
+                        <img src="C:\Users\Nikitha\Downloads\Group 62.png" />
+                    </div>
+                    <nav>
+                        <ol>
+                            <li>Home</li>
+                            <li>About Us</li>
+                            <li>Health Support Program</li>
+                            <li>Get Involved</li>
+                            <li>Contact Us</li>
+                        </ol>
+                    </nav>
+                    <div>
+                        <img src="C:\Users\Nikitha\Downloads\Group 62.png" />
+
+                    </div>
+                    <div class="ln">
+                        <img src="C:\Users\Nikitha\Downloads\Line 2.png" width="250" />
+                    </div>
+                </div>
+                <div class="white">
+                    <div class="clr"> <img src="C:\Users\Nikitha\Downloads\Group 46.png" /></div>
+                    <div class="kini"> <img src="C:\Users\Nikitha\Downloads\Line 6.png" height="50" /></div>
+                    <div class="clr">With You in Every Step of Cancer Care</div>
+                    <div class="kini"> <img src="C:\Users\Nikitha\Downloads\Line 6.png" height="50" /></div>
+                    <div class="clr"> <button class="contactus">Contact Us </button></div>
+
+                </div>
+                <div class="lastdiv">
+                    <div class="mbl">
+                        <img src="C:\Users\Nikitha\Downloads\edgesensor_high.png" />
+                        <h5>8050636777</h5>
+                    </div>
+                    <div class="li"> <img src="C:\Users\Nikitha\Downloads\Line 6.png" height="150" /></div>
+                    <div class="mbl">
+                        <img src="C:\Users\Nikitha\Downloads\attach_email.png" />
+                        <h5>sanjeevinicancerseva@gamil.com</h5>
+                    </div>
+                    <div class="li"> <img src="C:\Users\Nikitha\Downloads\Line 6.png" height="150" /></div>
+                    <div class="mbl">
+                        <img src="C:\Users\Nikitha\Downloads\distance.png" />
+                        <h5>
+                            Mangalore Institute of Oncology<br /> Pumpwell, Mangaluru<br /> Dakshina Kannada<br />  575002
+                        </h5>
+                    </div>
+                </div>
+                <div class="cpy">
+                    <div class="chip">
+                        Designed & Developed by Chipsy it Services Pvt. Ltd.
+
+                    </div>
+                    <div class="chip"> Copyright: © 2024 Sanjeevini Cancer Care Trust</div>
+                </div>
+
+
+
+            </footer>
+        </section>
+
+    </main>
+
+
+
+</body>
+</html>
